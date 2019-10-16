@@ -1,0 +1,10 @@
+.balloon {
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+
+    text-align:center;
+    display:flex;  
+    margin-top:50%;
+}
+
