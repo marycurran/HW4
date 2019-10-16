@@ -45,7 +45,7 @@ function deflate() {
         // show text 'Done'
         para.replaceWith("Done")
         var sheet = document.createElement('style')
-        sheet.innerHTML = "div {font-size: 50px; text-align:center; margin-top:50%;}";
+        sheet.innerHTML = "div {font-size: 50px; text-align:center; margin-top:25%;}";
         document.body.appendChild(sheet);
         document.removeEventListener('keyup', handleKeyup)
     } else {
